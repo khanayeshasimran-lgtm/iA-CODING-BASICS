@@ -1,3 +1,5 @@
 word=input()
-a=len(word)
-print("*" * a)
+a=int(word)
+print("* "*a)
+print("* "*a)
+print("* "*a)
