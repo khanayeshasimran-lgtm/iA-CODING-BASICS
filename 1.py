@@ -1,5 +1,4 @@
 word=input()
-a=int(word)
-print("* "*a)
-print("* "*a)
-print("* "*a)
+num=int(input())
+a=word[:num]+word[num+1:]
+print(a)
